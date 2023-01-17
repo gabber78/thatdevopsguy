@@ -1,4 +1,4 @@
-FROM openjdk:11-jdk
+FROM openjdk:10-jdk
 
 RUN apt-get update -y && apt-get install -y curl sudo
 
